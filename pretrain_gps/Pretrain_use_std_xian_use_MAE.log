@@ -1,0 +1,864 @@
+运行参数：
+training_epoch: 200
+device: cuda:0
+device_ids: [0, 0]
+lr: 0.001
+bs: 1024
+image_size: 120
+patch_size: 5
+emb_dim: 128
+encoder_layer: 8
+encoder_head: 4
+decoder_layer: 4
+decoder_head: 4
+mask_ratio: 0.75
+dataset: xian
+transform: True
+use_std: True
+data_sample: False
+use_time: False
+The data lens is 235408 in train.
+The data lens is 104153 in val.
+The data lens is 110462 in test.
+<----Epoch-0---->
+The result for the training dataset is 0.06701337479702804 at epoch 0, the recovered trajectory pos error is 593.2772682521654!
+The result for the training dataset is 0.03729237082834337 at epoch 0, the recovered trajectory pos error is 476.8369275261374!
+The result for the training dataset is 0.0358670507385223 at epoch 0, the recovered trajectory pos error is 465.8198499326353!
+Saving the model at epoch 0! with transform True.
+<----Epoch-1---->
+The result for the training dataset is 0.036895027319374295 at epoch 1, the recovered trajectory pos error is 474.13465164848!
+The result for the training dataset is 0.03814375678113863 at epoch 1, the recovered trajectory pos error is 498.8941820930032!
+The result for the training dataset is 0.036989094137593555 at epoch 1, the recovered trajectory pos error is 490.5538570262768!
+<----Epoch-2---->
+The result for the training dataset is 0.03465103795347006 at epoch 2, the recovered trajectory pos error is 457.5391815185547!
+The result for the training dataset is 0.03351970541053543 at epoch 2, the recovered trajectory pos error is 451.12879345463773!
+The result for the training dataset is 0.03240607946214301 at epoch 2, the recovered trajectory pos error is 441.25467879683885!
+Saving the model at epoch 2! with transform True.
+<----Epoch-3---->
+The result for the training dataset is 0.03153243831804265 at epoch 3, the recovered trajectory pos error is 438.2067591128142!
+The result for the training dataset is 0.02187924205745552 at epoch 3, the recovered trajectory pos error is 368.74154064702054!
+The result for the training dataset is 0.021179811942770525 at epoch 3, the recovered trajectory pos error is 362.1128395928277!
+Saving the model at epoch 3! with transform True.
+<----Epoch-4---->
+The result for the training dataset is 0.017958216114050667 at epoch 4, the recovered trajectory pos error is 332.62079918902856!
+The result for the training dataset is 0.009938800743981903 at epoch 4, the recovered trajectory pos error is 244.0535405476888!
+The result for the training dataset is 0.009715553036787443 at epoch 4, the recovered trajectory pos error is 241.0288498489945!
+Saving the model at epoch 4! with transform True.
+<----Epoch-5---->
+The result for the training dataset is 0.008745791601098103 at epoch 5, the recovered trajectory pos error is 229.14464827827786!
+The result for the training dataset is 0.007359792921217341 at epoch 5, the recovered trajectory pos error is 208.66612617642272!
+The result for the training dataset is 0.00718307264873551 at epoch 5, the recovered trajectory pos error is 205.65351514463072!
+Saving the model at epoch 5! with transform True.
+<----Epoch-6---->
+The result for the training dataset is 0.006930104819247904 at epoch 6, the recovered trajectory pos error is 202.73966170601224!
+The result for the training dataset is 0.005719539576995314 at epoch 6, the recovered trajectory pos error is 179.4626496258904!
+The result for the training dataset is 0.005533379524152864 at epoch 6, the recovered trajectory pos error is 177.00360926875362!
+Saving the model at epoch 6! with transform True.
+<----Epoch-7---->
+The result for the training dataset is 0.005620913903998292 at epoch 7, the recovered trajectory pos error is 179.87156027088994!
+The result for the training dataset is 0.005461035876114871 at epoch 7, the recovered trajectory pos error is 182.7008218204274!
+The result for the training dataset is 0.005292477456990768 at epoch 7, the recovered trajectory pos error is 180.62920690465856!
+Saving the model at epoch 7! with transform True.
+<----Epoch-8---->
+The result for the training dataset is 0.0047102364276171375 at epoch 8, the recovered trajectory pos error is 161.40145940366!
+The result for the training dataset is 0.004183777482431455 at epoch 8, the recovered trajectory pos error is 150.94534765505324!
+The result for the training dataset is 0.004104706437188994 at epoch 8, the recovered trajectory pos error is 149.06176927354602!
+Saving the model at epoch 8! with transform True.
+<----Epoch-9---->
+The result for the training dataset is 0.003993118902587372 at epoch 9, the recovered trajectory pos error is 143.77975931582245!
+The result for the training dataset is 0.0034973090149316133 at epoch 9, the recovered trajectory pos error is 130.38242848714194!
+The result for the training dataset is 0.00343471776081801 at epoch 9, the recovered trajectory pos error is 128.6651478520146!
+Saving the model at epoch 9! with transform True.
+<----Epoch-10---->
+The result for the training dataset is 0.004006422255390688 at epoch 10, the recovered trajectory pos error is 144.8602422963018!
+The result for the training dataset is 0.0033772059478888324 at epoch 10, the recovered trajectory pos error is 126.63934520646637!
+The result for the training dataset is 0.003272708516171271 at epoch 10, the recovered trajectory pos error is 124.47998407151964!
+Saving the model at epoch 10! with transform True.
+<----Epoch-11---->
+The result for the training dataset is 0.0035182373051572107 at epoch 11, the recovered trajectory pos error is 131.31587743344514!
+The result for the training dataset is 0.0032807659316698417 at epoch 11, the recovered trajectory pos error is 124.00628572351792!
+The result for the training dataset is 0.0031892823753878474 at epoch 11, the recovered trajectory pos error is 122.00854096589265!
+Saving the model at epoch 11! with transform True.
+<----Epoch-12---->
+The result for the training dataset is 0.0035979962512931746 at epoch 12, the recovered trajectory pos error is 134.60947288844898!
+The result for the training dataset is 0.0035660995476349605 at epoch 12, the recovered trajectory pos error is 138.8743459664139!
+The result for the training dataset is 0.0035244671162217855 at epoch 12, the recovered trajectory pos error is 137.49256741559063!
+<----Epoch-13---->
+The result for the training dataset is 0.0033476062696022185 at epoch 13, the recovered trajectory pos error is 127.12151300181513!
+The result for the training dataset is 0.0036474509329042014 at epoch 13, the recovered trajectory pos error is 140.0689110849418!
+The result for the training dataset is 0.0036235371069913663 at epoch 13, the recovered trajectory pos error is 139.53471134327077!
+<----Epoch-14---->
+The result for the training dataset is 0.003364764727935519 at epoch 14, the recovered trajectory pos error is 128.3337142944336!
+The result for the training dataset is 0.0030966492817171066 at epoch 14, the recovered trajectory pos error is 119.1013203789206!
+The result for the training dataset is 0.0030594280343157827 at epoch 14, the recovered trajectory pos error is 117.86979484558105!
+Saving the model at epoch 14! with transform True.
+<----Epoch-15---->
+The result for the training dataset is 0.003323652067869578 at epoch 15, the recovered trajectory pos error is 127.39427496868632!
+The result for the training dataset is 0.0028729826992596776 at epoch 15, the recovered trajectory pos error is 111.46858574362362!
+The result for the training dataset is 0.0027837742904753045 at epoch 15, the recovered trajectory pos error is 109.48924022250705!
+Saving the model at epoch 15! with transform True.
+<----Epoch-16---->
+The result for the training dataset is 0.0033278799241246737 at epoch 16, the recovered trajectory pos error is 128.09346907242485!
+The result for the training dataset is 0.0030771532328799367 at epoch 16, the recovered trajectory pos error is 117.78715066348805!
+The result for the training dataset is 0.0029738647798593673 at epoch 16, the recovered trajectory pos error is 116.05640383119936!
+<----Epoch-17---->
+The result for the training dataset is 0.0032294848225200954 at epoch 17, the recovered trajectory pos error is 123.836114369268!
+The result for the training dataset is 0.003012755780718198 at epoch 17, the recovered trajectory pos error is 118.22389086555032!
+The result for the training dataset is 0.0029009092249907553 at epoch 17, the recovered trajectory pos error is 116.60850998207376!
+<----Epoch-18---->
+The result for the training dataset is 0.003225116692888348 at epoch 18, the recovered trajectory pos error is 124.28087078592051!
+The result for the training dataset is 0.0031842404939964705 at epoch 18, the recovered trajectory pos error is 123.84843295228248!
+The result for the training dataset is 0.003131430617671598 at epoch 18, the recovered trajectory pos error is 122.67687133506492!
+<----Epoch-19---->
+The result for the training dataset is 0.0031572683835807054 at epoch 19, the recovered trajectory pos error is 122.77645701532778!
+The result for the training dataset is 0.0029414551761731797 at epoch 19, the recovered trajectory pos error is 116.81055009131337!
+The result for the training dataset is 0.0028981436841638277 at epoch 19, the recovered trajectory pos error is 115.67702992757161!
+<----Epoch-20---->
+The result for the training dataset is 0.0031197384404747382 at epoch 20, the recovered trajectory pos error is 122.08256633592688!
+The result for the training dataset is 0.0028703371450925865 at epoch 20, the recovered trajectory pos error is 113.61570425594554!
+The result for the training dataset is 0.0027717886001078617 at epoch 20, the recovered trajectory pos error is 111.69774705392344!
+Saving the model at epoch 20! with transform True.
+<----Epoch-21---->
+The result for the training dataset is 0.0031181833180396455 at epoch 21, the recovered trajectory pos error is 122.12618089758831!
+The result for the training dataset is 0.003357190670737741 at epoch 21, the recovered trajectory pos error is 133.36780757530062!
+The result for the training dataset is 0.0032841447779598334 at epoch 21, the recovered trajectory pos error is 132.62040512650103!
+<----Epoch-22---->
+The result for the training dataset is 0.003177513268209346 at epoch 22, the recovered trajectory pos error is 124.95437399822733!
+The result for the training dataset is 0.003008717205375433 at epoch 22, the recovered trajectory pos error is 121.01702574187634!
+The result for the training dataset is 0.0029301282096033296 at epoch 22, the recovered trajectory pos error is 119.59470183761032!
+<----Epoch-23---->
+The result for the training dataset is 0.0029986764496678243 at epoch 23, the recovered trajectory pos error is 117.69189788154934!
+The result for the training dataset is 0.0029402995988836184 at epoch 23, the recovered trajectory pos error is 119.06900233848422!
+The result for the training dataset is 0.002824252467016103 at epoch 23, the recovered trajectory pos error is 117.23075139081037!
+<----Epoch-24---->
+The result for the training dataset is 0.003086125557108418 at epoch 24, the recovered trajectory pos error is 121.75561868418818!
+The result for the training dataset is 0.003568149662540093 at epoch 24, the recovered trajectory pos error is 142.61330787808288!
+The result for the training dataset is 0.0035129896520326533 at epoch 24, the recovered trajectory pos error is 141.66111727114077!
+<----Epoch-25---->
+The result for the training dataset is 0.0030281135083540626 at epoch 25, the recovered trajectory pos error is 118.98777422697648!
+The result for the training dataset is 0.002939082768873549 at epoch 25, the recovered trajectory pos error is 117.4107395246917!
+The result for the training dataset is 0.002862504903330571 at epoch 25, the recovered trajectory pos error is 115.76368699250398!
+<----Epoch-26---->
+The result for the training dataset is 0.0029297344234731535 at epoch 26, the recovered trajectory pos error is 116.89924744315769!
+The result for the training dataset is 0.002822660973441659 at epoch 26, the recovered trajectory pos error is 116.66811138975854!
+The result for the training dataset is 0.002740930910308466 at epoch 26, the recovered trajectory pos error is 115.3396140910961!
+Saving the model at epoch 26! with transform True.
+<----Epoch-27---->
+The result for the training dataset is 0.0028187480947488674 at epoch 27, the recovered trajectory pos error is 113.35138927957286!
+The result for the training dataset is 0.0028392942576650894 at epoch 27, the recovered trajectory pos error is 117.41153702081418!
+The result for the training dataset is 0.0027833630943118973 at epoch 27, the recovered trajectory pos error is 116.32505430998626!
+<----Epoch-28---->
+The result for the training dataset is 0.0028051470851768617 at epoch 28, the recovered trajectory pos error is 114.22561745021655!
+The result for the training dataset is 0.0027114800291647223 at epoch 28, the recovered trajectory pos error is 113.00268644445083!
+The result for the training dataset is 0.0026352265202957722 at epoch 28, the recovered trajectory pos error is 111.7860287560357!
+Saving the model at epoch 28! with transform True.
+<----Epoch-29---->
+The result for the training dataset is 0.002647804184411855 at epoch 29, the recovered trajectory pos error is 108.51753158569336!
+The result for the training dataset is 0.002705699748213531 at epoch 29, the recovered trajectory pos error is 110.6721305847168!
+The result for the training dataset is 0.002639725925055919 at epoch 29, the recovered trajectory pos error is 109.68161265055339!
+<----Epoch-30---->
+The result for the training dataset is 0.06316288379425912 at epoch 30, the recovered trajectory pos error is 477.2443917647652!
+The result for the training dataset is 0.031740257078233886 at epoch 30, the recovered trajectory pos error is 442.42532378552005!
+The result for the training dataset is 0.03069973633521133 at epoch 30, the recovered trajectory pos error is 433.2513693350333!
+<----Epoch-31---->
+The result for the training dataset is 0.02251386815763038 at epoch 31, the recovered trajectory pos error is 368.81970838463826!
+The result for the training dataset is 0.018865506511692907 at epoch 31, the recovered trajectory pos error is 370.7323946485332!
+The result for the training dataset is 0.01844049019187137 at epoch 31, the recovered trajectory pos error is 366.7074113068757!
+<----Epoch-32---->
+The result for the training dataset is 0.009282542293405404 at epoch 32, the recovered trajectory pos error is 233.59956048053243!
+The result for the training dataset is 0.0064232069314183555 at epoch 32, the recovered trajectory pos error is 187.237335953058!
+The result for the training dataset is 0.0061531735592763185 at epoch 32, the recovered trajectory pos error is 183.43142940379954!
+<----Epoch-33---->
+The result for the training dataset is 0.006463004359165612 at epoch 33, the recovered trajectory pos error is 187.4310802957286!
+The result for the training dataset is 0.005089564258050101 at epoch 33, the recovered trajectory pos error is 164.50946673224954!
+The result for the training dataset is 0.004946811340266356 at epoch 33, the recovered trajectory pos error is 162.38756702564382!
+<----Epoch-34---->
+The result for the training dataset is 0.004640977492596468 at epoch 34, the recovered trajectory pos error is 155.0256252122962!
+The result for the training dataset is 0.004159673516565532 at epoch 34, the recovered trajectory pos error is 143.99118670295266!
+The result for the training dataset is 0.004035136224788234 at epoch 34, the recovered trajectory pos error is 141.3727124532064!
+<----Epoch-35---->
+The result for the training dataset is 0.004344939366590393 at epoch 35, the recovered trajectory pos error is 148.96749061916185!
+The result for the training dataset is 0.003920994479866589 at epoch 35, the recovered trajectory pos error is 138.7176461313285!
+The result for the training dataset is 0.0037810837060937453 at epoch 35, the recovered trajectory pos error is 136.54792178118672!
+<----Epoch-36---->
+The result for the training dataset is 0.0040253286978796776 at epoch 36, the recovered trajectory pos error is 141.71135091366975!
+The result for the training dataset is 0.0035574942320475682 at epoch 36, the recovered trajectory pos error is 128.66891225179037!
+The result for the training dataset is 0.003454493824392557 at epoch 36, the recovered trajectory pos error is 126.52334460505733!
+<----Epoch-37---->
+The result for the training dataset is 0.003825970878824592 at epoch 37, the recovered trajectory pos error is 136.474508998705!
+The result for the training dataset is 0.003476795544117397 at epoch 37, the recovered trajectory pos error is 125.50637458352482!
+The result for the training dataset is 0.0033810894518090345 at epoch 37, the recovered trajectory pos error is 123.43133008038556!
+<----Epoch-38---->
+The result for the training dataset is 0.0037442218907096465 at epoch 38, the recovered trajectory pos error is 135.35231240313985!
+The result for the training dataset is 0.003601907266249113 at epoch 38, the recovered trajectory pos error is 133.79179419723212!
+The result for the training dataset is 0.003541960840165201 at epoch 38, the recovered trajectory pos error is 132.46687161480938!
+<----Epoch-39---->
+The result for the training dataset is 0.003630895710185818 at epoch 39, the recovered trajectory pos error is 132.70871296758236!
+The result for the training dataset is 0.003614519291338237 at epoch 39, the recovered trajectory pos error is 133.27642261280732!
+The result for the training dataset is 0.0034457820627183 at epoch 39, the recovered trajectory pos error is 130.88990713048864!
+<----Epoch-40---->
+The result for the training dataset is 0.003552508115282525 at epoch 40, the recovered trajectory pos error is 130.5349839583687!
+The result for the training dataset is 0.003437287176447902 at epoch 40, the recovered trajectory pos error is 130.29158992393343!
+The result for the training dataset is 0.0033642149388065767 at epoch 40, the recovered trajectory pos error is 128.69500040124964!
+<----Epoch-41---->
+The result for the training dataset is 0.0035278757710171782 at epoch 41, the recovered trajectory pos error is 130.99399181863535!
+The result for the training dataset is 0.0038551473784643937 at epoch 41, the recovered trajectory pos error is 146.59431532317518!
+The result for the training dataset is 0.003756336663004563 at epoch 41, the recovered trajectory pos error is 144.8528278492115!
+<----Epoch-42---->
+The result for the training dataset is 0.003530561026064274 at epoch 42, the recovered trajectory pos error is 130.54628690636676!
+The result for the training dataset is 0.003558739081627744 at epoch 42, the recovered trajectory pos error is 135.36277367086973!
+The result for the training dataset is 0.0034466389269154104 at epoch 42, the recovered trajectory pos error is 133.2458487616645!
+<----Epoch-43---->
+The result for the training dataset is 0.0033935933718052896 at epoch 43, the recovered trajectory pos error is 126.95017275602922!
+The result for the training dataset is 0.0033777098276415 at epoch 43, the recovered trajectory pos error is 129.3421688453824!
+The result for the training dataset is 0.0033203848115927366 at epoch 43, the recovered trajectory pos error is 127.66106626722548!
+<----Epoch-44---->
+The result for the training dataset is 0.0033716619996677923 at epoch 44, the recovered trajectory pos error is 126.48030680780825!
+The result for the training dataset is 0.0033027280313784584 at epoch 44, the recovered trajectory pos error is 127.45732558007334!
+The result for the training dataset is 0.0032238886385500707 at epoch 44, the recovered trajectory pos error is 125.70703781975641!
+<----Epoch-45---->
+The result for the training dataset is 0.0033283612285943134 at epoch 45, the recovered trajectory pos error is 124.77123296986456!
+The result for the training dataset is 0.0030196850192641803 at epoch 45, the recovered trajectory pos error is 113.88274226469152!
+The result for the training dataset is 0.0029401626541382736 at epoch 45, the recovered trajectory pos error is 112.16953016210485!
+<----Epoch-46---->
+The result for the training dataset is 0.00330173553817946 at epoch 46, the recovered trajectory pos error is 124.7770425879437!
+The result for the training dataset is 0.0034612624349036054 at epoch 46, the recovered trajectory pos error is 133.44159773284315!
+The result for the training dataset is 0.0034025599641070046 at epoch 46, the recovered trajectory pos error is 131.97866913124366!
+<----Epoch-47---->
+The result for the training dataset is 0.0032188150019425415 at epoch 47, the recovered trajectory pos error is 121.49872144616168!
+The result for the training dataset is 0.003130661104531849 at epoch 47, the recovered trajectory pos error is 122.00790315515854!
+The result for the training dataset is 0.003074174770585227 at epoch 47, the recovered trajectory pos error is 120.57437988563821!
+<----Epoch-48---->
+The result for the training dataset is 0.0032396078808233143 at epoch 48, the recovered trajectory pos error is 122.36088631671407!
+The result for the training dataset is 0.003111678120844504 at epoch 48, the recovered trajectory pos error is 120.55859225404029!
+The result for the training dataset is 0.0030433726561669675 at epoch 48, the recovered trajectory pos error is 119.27169375949435!
+<----Epoch-49---->
+The result for the training dataset is 0.0031732325320658478 at epoch 49, the recovered trajectory pos error is 120.53507862920347!
+The result for the training dataset is 0.00320494595422026 at epoch 49, the recovered trajectory pos error is 123.28326109343884!
+The result for the training dataset is 0.0030543836182914674 at epoch 49, the recovered trajectory pos error is 121.39975067421243!
+<----Epoch-50---->
+The result for the training dataset is 0.0031813127504985617 at epoch 50, the recovered trajectory pos error is 121.9519041310186!
+The result for the training dataset is 0.003214316422064953 at epoch 50, the recovered trajectory pos error is 125.874402663287!
+The result for the training dataset is 0.0031283858848770185 at epoch 50, the recovered trajectory pos error is 124.31139945983887!
+<----Epoch-51---->
+The result for the training dataset is 0.00318927599279129 at epoch 51, the recovered trajectory pos error is 121.59622938736625!
+The result for the training dataset is 0.00287261010859819 at epoch 51, the recovered trajectory pos error is 110.7349645577225!
+The result for the training dataset is 0.0027795154213284454 at epoch 51, the recovered trajectory pos error is 109.0332588619656!
+<----Epoch-52---->
+The result for the training dataset is 0.0031542606439198487 at epoch 52, the recovered trajectory pos error is 119.79920558100162!
+The result for the training dataset is 0.003455810810384505 at epoch 52, the recovered trajectory pos error is 134.50779125737208!
+The result for the training dataset is 0.003393896473830359 at epoch 52, the recovered trajectory pos error is 133.8255275443748!
+<----Epoch-53---->
+The result for the training dataset is 0.0031413377637205565 at epoch 53, the recovered trajectory pos error is 120.26053327477497!
+The result for the training dataset is 0.002810184200129965 at epoch 53, the recovered trajectory pos error is 108.80961100260417!
+The result for the training dataset is 0.002771866522919111 at epoch 53, the recovered trajectory pos error is 107.40815558256926!
+<----Epoch-54---->
+The result for the training dataset is 0.003085450919183052 at epoch 54, the recovered trajectory pos error is 118.0776450779127!
+The result for the training dataset is 0.003052122710619633 at epoch 54, the recovered trajectory pos error is 117.23938863417682!
+The result for the training dataset is 0.002926735134139933 at epoch 54, the recovered trajectory pos error is 115.70760656286168!
+<----Epoch-55---->
+The result for the training dataset is 0.0030683866691897095 at epoch 55, the recovered trajectory pos error is 117.76930654774542!
+The result for the training dataset is 0.0028938799046491293 at epoch 55, the recovered trajectory pos error is 114.10827950870289!
+The result for the training dataset is 0.0028228655724820717 at epoch 55, the recovered trajectory pos error is 112.49074483800817!
+<----Epoch-56---->
+The result for the training dataset is 0.0031154289355744486 at epoch 56, the recovered trajectory pos error is 119.09240215135657!
+The result for the training dataset is 0.0030075041348954627 at epoch 56, the recovered trajectory pos error is 118.4401206222235!
+The result for the training dataset is 0.0029438913786887294 at epoch 56, the recovered trajectory pos error is 117.30064476860895!
+<----Epoch-57---->
+The result for the training dataset is 0.0030988585902377965 at epoch 57, the recovered trajectory pos error is 118.42831473972487!
+The result for the training dataset is 0.0028259861671055355 at epoch 57, the recovered trajectory pos error is 109.88371306774663!
+The result for the training dataset is 0.0027767024606604267 at epoch 57, the recovered trajectory pos error is 108.31777487860785!
+<----Epoch-58---->
+The result for the training dataset is 0.0030112154609726175 at epoch 58, the recovered trajectory pos error is 115.81243458623472!
+The result for the training dataset is 0.0029216657949648066 at epoch 58, the recovered trajectory pos error is 113.93044273526061!
+The result for the training dataset is 0.002824203639411954 at epoch 58, the recovered trajectory pos error is 112.17598003811307!
+<----Epoch-59---->
+The result for the training dataset is 0.0030163365902136203 at epoch 59, the recovered trajectory pos error is 115.72552165155825!
+The result for the training dataset is 0.0029013470048084855 at epoch 59, the recovered trajectory pos error is 111.55838244569068!
+The result for the training dataset is 0.002798229160597893 at epoch 59, the recovered trajectory pos error is 109.74313792475948!
+<----Epoch-60---->
+The result for the training dataset is 0.003034094432571336 at epoch 60, the recovered trajectory pos error is 117.02714973117995!
+The result for the training dataset is 0.003088889234954966 at epoch 60, the recovered trajectory pos error is 121.26804434084424!
+The result for the training dataset is 0.0030124570368099267 at epoch 60, the recovered trajectory pos error is 120.06170449433503!
+<----Epoch-61---->
+The result for the training dataset is 0.0029880004114997776 at epoch 61, the recovered trajectory pos error is 115.50776662411897!
+The result for the training dataset is 0.0029165243077110136 at epoch 61, the recovered trajectory pos error is 115.8658239327225!
+The result for the training dataset is 0.0028827726491726935 at epoch 61, the recovered trajectory pos error is 114.5691005565502!
+<----Epoch-62---->
+The result for the training dataset is 0.002933483328872725 at epoch 62, the recovered trajectory pos error is 114.17109889154848!
+The result for the training dataset is 0.002748703038520819 at epoch 62, the recovered trajectory pos error is 106.76732837452607!
+The result for the training dataset is 0.0026576896586144962 at epoch 62, the recovered trajectory pos error is 105.07148799189815!
+<----Epoch-63---->
+The result for the training dataset is 0.0029671748877381503 at epoch 63, the recovered trajectory pos error is 114.92511636485224!
+The result for the training dataset is 0.002785033982374943 at epoch 63, the recovered trajectory pos error is 108.83161036173503!
+The result for the training dataset is 0.00273025021414031 at epoch 63, the recovered trajectory pos error is 107.15987028899016!
+<----Epoch-64---->
+The result for the training dataset is 0.0029095375930647486 at epoch 64, the recovered trajectory pos error is 113.21672121130902!
+The result for the training dataset is 0.0027899402170898577 at epoch 64, the recovered trajectory pos error is 109.30241618436925!
+The result for the training dataset is 0.002710782107897103 at epoch 64, the recovered trajectory pos error is 107.57350702638979!
+<----Epoch-65---->
+The result for the training dataset is 0.0029188950667562693 at epoch 65, the recovered trajectory pos error is 114.0988689256751!
+The result for the training dataset is 0.0028037185433740707 at epoch 65, the recovered trajectory pos error is 111.58928111955231!
+The result for the training dataset is 0.0027102463796769304 at epoch 65, the recovered trajectory pos error is 109.7399840178313!
+<----Epoch-66---->
+The result for the training dataset is 0.0028624642063337174 at epoch 66, the recovered trajectory pos error is 111.49919118466585!
+The result for the training dataset is 0.0027517292274198695 at epoch 66, the recovered trajectory pos error is 109.888516070796!
+The result for the training dataset is 0.0027174269500257514 at epoch 66, the recovered trajectory pos error is 108.57152140582049!
+<----Epoch-67---->
+The result for the training dataset is 0.0028765322306476856 at epoch 67, the recovered trajectory pos error is 111.72796116704527!
+The result for the training dataset is 0.0027105220292201813 at epoch 67, the recovered trajectory pos error is 108.34603111416686!
+The result for the training dataset is 0.0026181893686212047 at epoch 67, the recovered trajectory pos error is 106.75133196512859!
+Saving the model at epoch 67! with transform True.
+<----Epoch-68---->
+The result for the training dataset is 0.0029249016519473947 at epoch 68, the recovered trajectory pos error is 114.35982530013375!
+The result for the training dataset is 0.002803113909584342 at epoch 68, the recovered trajectory pos error is 111.04892446480545!
+The result for the training dataset is 0.0027309937135281937 at epoch 68, the recovered trajectory pos error is 109.5792328869855!
+<----Epoch-69---->
+The result for the training dataset is 0.002852654358898492 at epoch 69, the recovered trajectory pos error is 112.21611649886421!
+The result for the training dataset is 0.0030115266312278955 at epoch 69, the recovered trajectory pos error is 121.60878723742915!
+The result for the training dataset is 0.0029500056127155267 at epoch 69, the recovered trajectory pos error is 120.42762982403791!
+<----Epoch-70---->
+The result for the training dataset is 0.0028729521264524564 at epoch 70, the recovered trajectory pos error is 112.22257610818615!
+The result for the training dataset is 0.002923152742761315 at epoch 70, the recovered trajectory pos error is 115.56576956954657!
+The result for the training dataset is 0.002844089221778429 at epoch 70, the recovered trajectory pos error is 113.69356487415455!
+<----Epoch-71---->
+The result for the training dataset is 0.002828288483230964 at epoch 71, the recovered trajectory pos error is 110.88956149557363!
+The result for the training dataset is 0.0026497291583640905 at epoch 71, the recovered trajectory pos error is 104.56097569185145!
+The result for the training dataset is 0.0026069278182047936 at epoch 71, the recovered trajectory pos error is 102.81839074028863!
+Saving the model at epoch 71! with transform True.
+<----Epoch-72---->
+The result for the training dataset is 0.0028180825017878543 at epoch 72, the recovered trajectory pos error is 110.7072149525518!
+The result for the training dataset is 0.002642944804392755 at epoch 72, the recovered trajectory pos error is 102.93673810771867!
+The result for the training dataset is 0.0025399140550116835 at epoch 72, the recovered trajectory pos error is 101.40790699146412!
+Saving the model at epoch 72! with transform True.
+<----Epoch-73---->
+The result for the training dataset is 0.0027794362086316815 at epoch 73, the recovered trajectory pos error is 110.256124678902!
+The result for the training dataset is 0.003193971372264273 at epoch 73, the recovered trajectory pos error is 130.56434736064836!
+The result for the training dataset is 0.0031016604733411913 at epoch 73, the recovered trajectory pos error is 129.51442118044253!
+<----Epoch-74---->
+The result for the training dataset is 0.002738063125466199 at epoch 74, the recovered trajectory pos error is 108.93737116274626!
+The result for the training dataset is 0.0026823593116383636 at epoch 74, the recovered trajectory pos error is 107.2208334978889!
+The result for the training dataset is 0.002606411889212689 at epoch 74, the recovered trajectory pos error is 105.48555049189815!
+<----Epoch-75---->
+The result for the training dataset is 0.002695081981263407 at epoch 75, the recovered trajectory pos error is 108.3073494952658!
+The result for the training dataset is 0.002756890359188558 at epoch 75, the recovered trajectory pos error is 110.5722993588915!
+The result for the training dataset is 0.0026485595692604504 at epoch 75, the recovered trajectory pos error is 109.00928751627605!
+<----Epoch-76---->
+The result for the training dataset is 0.0027198791179967965 at epoch 76, the recovered trajectory pos error is 108.22328653750212!
+The result for the training dataset is 0.002566805748524619 at epoch 76, the recovered trajectory pos error is 106.28310783236634!
+The result for the training dataset is 0.0025329012100377846 at epoch 76, the recovered trajectory pos error is 105.01549296908908!
+Saving the model at epoch 76! with transform True.
+<----Epoch-77---->
+The result for the training dataset is 0.0026465962023433784 at epoch 77, the recovered trajectory pos error is 106.85606540182363!
+The result for the training dataset is 0.0025852018186603397 at epoch 77, the recovered trajectory pos error is 104.73792476280063!
+The result for the training dataset is 0.0024839381695966477 at epoch 77, the recovered trajectory pos error is 103.43238286618833!
+Saving the model at epoch 77! with transform True.
+<----Epoch-78---->
+The result for the training dataset is 0.0026751233204065457 at epoch 78, the recovered trajectory pos error is 106.74701959361201!
+The result for the training dataset is 0.002656894898060344 at epoch 78, the recovered trajectory pos error is 108.35186917174096!
+The result for the training dataset is 0.0025513884029351175 at epoch 78, the recovered trajectory pos error is 106.81752247280545!
+<----Epoch-79---->
+The result for the training dataset is 0.0026465302434466455 at epoch 79, the recovered trajectory pos error is 106.33544437574304!
+The result for the training dataset is 0.0024818774887963254 at epoch 79, the recovered trajectory pos error is 100.8360990636489!
+The result for the training dataset is 0.0024226028148809243 at epoch 79, the recovered trajectory pos error is 99.6831186082628!
+Saving the model at epoch 79! with transform True.
+<----Epoch-80---->
+The result for the training dataset is 0.002594070866420541 at epoch 80, the recovered trajectory pos error is 105.02999775098718!
+The result for the training dataset is 0.0024840135752753007 at epoch 80, the recovered trajectory pos error is 101.38143315034755!
+The result for the training dataset is 0.002442616225582444 at epoch 80, the recovered trajectory pos error is 100.03688254179778!
+<----Epoch-81---->
+The result for the training dataset is 0.002563010104526968 at epoch 81, the recovered trajectory pos error is 104.0895301155422!
+The result for the training dataset is 0.0024700366604306244 at epoch 81, the recovered trajectory pos error is 100.30975663428212!
+The result for the training dataset is 0.002372846132385786 at epoch 81, the recovered trajectory pos error is 98.56717667756257!
+Saving the model at epoch 81! with transform True.
+<----Epoch-82---->
+The result for the training dataset is 0.0025583240082082542 at epoch 82, the recovered trajectory pos error is 103.5304619167162!
+The result for the training dataset is 0.0023783789262832966 at epoch 82, the recovered trajectory pos error is 98.03790283203125!
+The result for the training dataset is 0.0022993399179540575 at epoch 82, the recovered trajectory pos error is 96.2884206418638!
+Saving the model at epoch 82! with transform True.
+<----Epoch-83---->
+The result for the training dataset is 0.002556287723026522 at epoch 83, the recovered trajectory pos error is 103.57378307840098!
+The result for the training dataset is 0.00263061370317112 at epoch 83, the recovered trajectory pos error is 109.40714742623123!
+The result for the training dataset is 0.002539969228328792 at epoch 83, the recovered trajectory pos error is 107.96090952555339!
+<----Epoch-84---->
+The result for the training dataset is 0.002549770345870891 at epoch 84, the recovered trajectory pos error is 104.46456743323284!
+The result for the training dataset is 0.0024008399706479965 at epoch 84, the recovered trajectory pos error is 98.38087485818302!
+The result for the training dataset is 0.0023562059526469697 at epoch 84, the recovered trajectory pos error is 97.03728294372559!
+<----Epoch-85---->
+The result for the training dataset is 0.0024974095771777565 at epoch 85, the recovered trajectory pos error is 101.61353849328083!
+The result for the training dataset is 0.002438345771082038 at epoch 85, the recovered trajectory pos error is 102.04068254957012!
+The result for the training dataset is 0.0023845524518509155 at epoch 85, the recovered trajectory pos error is 100.76032334786875!
+<----Epoch-86---->
+The result for the training dataset is 0.0025629040542180124 at epoch 86, the recovered trajectory pos error is 103.65405542124873!
+The result for the training dataset is 0.0023593181063987167 at epoch 86, the recovered trajectory pos error is 97.48394004971374!
+The result for the training dataset is 0.002316691712217612 at epoch 86, the recovered trajectory pos error is 96.62923713966653!
+<----Epoch-87---->
+The result for the training dataset is 0.0024601269892983784 at epoch 87, the recovered trajectory pos error is 101.25215706203295!
+The result for the training dataset is 0.0022741959946157007 at epoch 87, the recovered trajectory pos error is 94.01346311382218!
+The result for the training dataset is 0.00221579893884525 at epoch 87, the recovered trajectory pos error is 92.54084933245623!
+Saving the model at epoch 87! with transform True.
+<----Epoch-88---->
+The result for the training dataset is 0.002458538421753632 at epoch 88, the recovered trajectory pos error is 101.18220194940982!
+The result for the training dataset is 0.002218447099485453 at epoch 88, the recovered trajectory pos error is 91.65748446595435!
+The result for the training dataset is 0.0021482448447150766 at epoch 88, the recovered trajectory pos error is 90.20420265197754!
+Saving the model at epoch 88! with transform True.
+<----Epoch-89---->
+The result for the training dataset is 0.0023363612526420344 at epoch 89, the recovered trajectory pos error is 97.03535919189453!
+The result for the training dataset is 0.0022769026074777633 at epoch 89, the recovered trajectory pos error is 95.25858239566578!
+The result for the training dataset is 0.0021923076656767755 at epoch 89, the recovered trajectory pos error is 94.15615837662308!
+<----Epoch-90---->
+The result for the training dataset is 0.002353794208181131 at epoch 90, the recovered trajectory pos error is 97.32683098834494!
+The result for the training dataset is 0.0023123672375838984 at epoch 90, the recovered trajectory pos error is 97.44278372970282!
+The result for the training dataset is 0.0022295743983704597 at epoch 90, the recovered trajectory pos error is 96.10661139311614!
+<----Epoch-91---->
+The result for the training dataset is 0.0023566959992699 at epoch 91, the recovered trajectory pos error is 96.65810218479322!
+The result for the training dataset is 0.0022179326133839054 at epoch 91, the recovered trajectory pos error is 93.71182969037224!
+The result for the training dataset is 0.0021681508126979074 at epoch 91, the recovered trajectory pos error is 92.58838074295609!
+<----Epoch-92---->
+The result for the training dataset is 0.0023628367171825274 at epoch 92, the recovered trajectory pos error is 97.06404511824898!
+The result for the training dataset is 0.0022057059389886027 at epoch 92, the recovered trajectory pos error is 91.67523544909908!
+The result for the training dataset is 0.0021540590710679274 at epoch 92, the recovered trajectory pos error is 90.4097245534261!
+<----Epoch-93---->
+The result for the training dataset is 0.002311257070497326 at epoch 93, the recovered trajectory pos error is 96.05502534949261!
+The result for the training dataset is 0.0021228386493235387 at epoch 93, the recovered trajectory pos error is 89.52610053268134!
+The result for the training dataset is 0.002127930183498258 at epoch 93, the recovered trajectory pos error is 88.53761849579988!
+Saving the model at epoch 93! with transform True.
+<----Epoch-94---->
+The result for the training dataset is 0.0022910096652238913 at epoch 94, the recovered trajectory pos error is 96.08240817526112!
+The result for the training dataset is 0.0021805546438211903 at epoch 94, the recovered trajectory pos error is 90.4942434722302!
+The result for the training dataset is 0.0021629086943532995 at epoch 94, the recovered trajectory pos error is 89.71316118593569!
+<----Epoch-95---->
+The result for the training dataset is 0.002291082203610922 at epoch 95, the recovered trajectory pos error is 95.62819303429644!
+The result for the training dataset is 0.002193916009227727 at epoch 95, the recovered trajectory pos error is 93.21779542810776!
+The result for the training dataset is 0.0021847597812733577 at epoch 95, the recovered trajectory pos error is 92.40406396653917!
+<----Epoch-96---->
+The result for the training dataset is 0.002264992278271719 at epoch 96, the recovered trajectory pos error is 94.5991949993631!
+The result for the training dataset is 0.0022840867259576185 at epoch 96, the recovered trajectory pos error is 97.75234678679821!
+The result for the training dataset is 0.0022415434014638543 at epoch 96, the recovered trajectory pos error is 97.08181416546857!
+<----Epoch-97---->
+The result for the training dataset is 0.0022997990721310285 at epoch 97, the recovered trajectory pos error is 96.55176567409349!
+The result for the training dataset is 0.0022502883266675854 at epoch 97, the recovered trajectory pos error is 96.13183077643899!
+The result for the training dataset is 0.002195204805401671 at epoch 97, the recovered trajectory pos error is 95.35461482295284!
+<----Epoch-98---->
+The result for the training dataset is 0.0022462671850403044 at epoch 98, the recovered trajectory pos error is 94.28991181746773!
+The result for the training dataset is 0.0022002178513645834 at epoch 98, the recovered trajectory pos error is 94.46197001139323!
+The result for the training dataset is 0.0021723785773954457 at epoch 98, the recovered trajectory pos error is 93.56097560458713!
+<----Epoch-99---->
+The result for the training dataset is 0.0022511750171163485 at epoch 99, the recovered trajectory pos error is 93.86247634887695!
+The result for the training dataset is 0.0021995756941774456 at epoch 99, the recovered trajectory pos error is 93.39298128614239!
+The result for the training dataset is 0.002136469273224335 at epoch 99, the recovered trajectory pos error is 92.13430616590712!
+<----Epoch-100---->
+The result for the training dataset is 0.0022320521357671722 at epoch 100, the recovered trajectory pos error is 93.49914331850798!
+The result for the training dataset is 0.002340097230283872 at epoch 100, the recovered trajectory pos error is 99.96389015048157!
+The result for the training dataset is 0.0022085176940352 at epoch 100, the recovered trajectory pos error is 98.47526430200648!
+<----Epoch-101---->
+The result for the training dataset is 0.00229405522974127 at epoch 101, the recovered trajectory pos error is 95.8362910726796!
+The result for the training dataset is 0.0021772251610516335 at epoch 101, the recovered trajectory pos error is 92.99331919352214!
+The result for the training dataset is 0.002121799253574055 at epoch 101, the recovered trajectory pos error is 91.96736095569752!
+Saving the model at epoch 101! with transform True.
+<----Epoch-102---->
+The result for the training dataset is 0.0022439368332371765 at epoch 102, the recovered trajectory pos error is 93.90821237978727!
+The result for the training dataset is 0.0022604732075706124 at epoch 102, the recovered trajectory pos error is 99.52190818038642!
+The result for the training dataset is 0.0022287593984165817 at epoch 102, the recovered trajectory pos error is 98.6757465645119!
+<----Epoch-103---->
+The result for the training dataset is 0.002241601991345701 at epoch 103, the recovered trajectory pos error is 94.46607118689495!
+The result for the training dataset is 0.002159633923678056 at epoch 103, the recovered trajectory pos error is 91.89754224291035!
+The result for the training dataset is 0.0020961875227469675 at epoch 103, the recovered trajectory pos error is 90.45938491821289!
+Saving the model at epoch 103! with transform True.
+<----Epoch-104---->
+The result for the training dataset is 0.002175428434882475 at epoch 104, the recovered trajectory pos error is 92.23128492935844!
+The result for the training dataset is 0.002310646544941062 at epoch 104, the recovered trajectory pos error is 100.7970952800676!
+The result for the training dataset is 0.002225810147744293 at epoch 104, the recovered trajectory pos error is 99.74175615663881!
+<----Epoch-105---->
+The result for the training dataset is 0.0022479331287879336 at epoch 105, the recovered trajectory pos error is 94.52238298499066!
+The result for the training dataset is 0.0021407848758184735 at epoch 105, the recovered trajectory pos error is 90.56217874265185!
+The result for the training dataset is 0.002057938432295082 at epoch 105, the recovered trajectory pos error is 89.07822616012008!
+Saving the model at epoch 105! with transform True.
+<----Epoch-106---->
+The result for the training dataset is 0.002220818168564659 at epoch 106, the recovered trajectory pos error is 93.8876707325811!
+The result for the training dataset is 0.002123965482300549 at epoch 106, the recovered trajectory pos error is 87.50729961021274!
+The result for the training dataset is 0.002024344127642474 at epoch 106, the recovered trajectory pos error is 86.23193451210305!
+Saving the model at epoch 106! with transform True.
+<----Epoch-107---->
+The result for the training dataset is 0.002244948273342427 at epoch 107, the recovered trajectory pos error is 93.88095975129501!
+The result for the training dataset is 0.002390953447377565 at epoch 107, the recovered trajectory pos error is 103.77818201102463!
+The result for the training dataset is 0.0023180752522657037 at epoch 107, the recovered trajectory pos error is 103.02531616776078!
+<----Epoch-108---->
+The result for the training dataset is 0.0021892377630928937 at epoch 108, the recovered trajectory pos error is 92.64192418637484!
+The result for the training dataset is 0.0023712757312893576 at epoch 108, the recovered trajectory pos error is 105.39918652702781!
+The result for the training dataset is 0.0023441926847832897 at epoch 108, the recovered trajectory pos error is 104.52222562719274!
+<----Epoch-109---->
+The result for the training dataset is 0.0021821180530621305 at epoch 109, the recovered trajectory pos error is 92.45729068258534!
+The result for the training dataset is 0.0022925259419899506 at epoch 109, the recovered trajectory pos error is 98.9142318426394!
+The result for the training dataset is 0.0021665643726009876 at epoch 109, the recovered trajectory pos error is 97.32391957883482!
+<----Epoch-110---->
+The result for the training dataset is 0.0021487338265970997 at epoch 110, the recovered trajectory pos error is 90.80758348547894!
+The result for the training dataset is 0.0021867880805432065 at epoch 110, the recovered trajectory pos error is 93.17413479674096!
+The result for the training dataset is 0.002124227317162203 at epoch 110, the recovered trajectory pos error is 91.97396560951516!
+<----Epoch-111---->
+The result for the training dataset is 0.002159013478186629 at epoch 111, the recovered trajectory pos error is 91.81076769621475!
+The result for the training dataset is 0.002204942453068261 at epoch 111, the recovered trajectory pos error is 94.44142524868835!
+The result for the training dataset is 0.002135562495957991 at epoch 111, the recovered trajectory pos error is 93.31221516927083!
+<----Epoch-112---->
+The result for the training dataset is 0.002198900808782681 at epoch 112, the recovered trajectory pos error is 93.54664346446161!
+The result for the training dataset is 0.0021083819538391395 at epoch 112, the recovered trajectory pos error is 91.19799049227845!
+The result for the training dataset is 0.002058309581587781 at epoch 112, the recovered trajectory pos error is 90.00705125596788!
+<----Epoch-113---->
+The result for the training dataset is 0.0021844735581670765 at epoch 113, the recovered trajectory pos error is 92.19143739783246!
+The result for the training dataset is 0.0020950927088658013 at epoch 113, the recovered trajectory pos error is 88.71324756098728!
+The result for the training dataset is 0.002051968422839073 at epoch 113, the recovered trajectory pos error is 87.91537927698207!
+<----Epoch-114---->
+The result for the training dataset is 0.0021675120153383395 at epoch 114, the recovered trajectory pos error is 91.69719397503397!
+The result for the training dataset is 0.002251186379569345 at epoch 114, the recovered trajectory pos error is 98.49568153830135!
+The result for the training dataset is 0.002159851344509257 at epoch 114, the recovered trajectory pos error is 97.38825762713397!
+<----Epoch-115---->
+The result for the training dataset is 0.0021809385973028837 at epoch 115, the recovered trajectory pos error is 91.99782396399456!
+The result for the training dataset is 0.002087821079162406 at epoch 115, the recovered trajectory pos error is 89.15991353053673!
+The result for the training dataset is 0.0020578814340600124 at epoch 115, the recovered trajectory pos error is 87.81315118295176!
+<----Epoch-116---->
+The result for the training dataset is 0.002151919225655982 at epoch 116, the recovered trajectory pos error is 91.29585611094599!
+The result for the training dataset is 0.0020127325505931294 at epoch 116, the recovered trajectory pos error is 86.76801748836742!
+The result for the training dataset is 0.001987965255803256 at epoch 116, the recovered trajectory pos error is 85.85363303290472!
+Saving the model at epoch 116! with transform True.
+<----Epoch-117---->
+The result for the training dataset is 0.0021292045773209436 at epoch 117, the recovered trajectory pos error is 90.16215299523395!
+The result for the training dataset is 0.0020274598740369957 at epoch 117, the recovered trajectory pos error is 87.77181954477348!
+The result for the training dataset is 0.002006602011129467 at epoch 117, the recovered trajectory pos error is 87.05175201981156!
+<----Epoch-118---->
+The result for the training dataset is 0.0021426695287632552 at epoch 118, the recovered trajectory pos error is 91.00752274886422!
+The result for the training dataset is 0.002159055120393853 at epoch 118, the recovered trajectory pos error is 92.85652848785999!
+The result for the training dataset is 0.0021619884377017755 at epoch 118, the recovered trajectory pos error is 92.3089735949481!
+<----Epoch-119---->
+The result for the training dataset is 0.002169118081624417 at epoch 119, the recovered trajectory pos error is 92.40895117054815!
+The result for the training dataset is 0.002239348706971927 at epoch 119, the recovered trajectory pos error is 99.84850677789426!
+The result for the training dataset is 0.002173946858858 at epoch 119, the recovered trajectory pos error is 98.63601550349483!
+<----Epoch-120---->
+The result for the training dataset is 0.0021271528301598586 at epoch 120, the recovered trajectory pos error is 90.44845604274583!
+The result for the training dataset is 0.0019845356970715025 at epoch 120, the recovered trajectory pos error is 85.74230717677696!
+The result for the training dataset is 0.001955638090967787 at epoch 120, the recovered trajectory pos error is 84.74755668640137!
+Saving the model at epoch 120! with transform True.
+<----Epoch-121---->
+The result for the training dataset is 0.0021210442044083838 at epoch 121, the recovered trajectory pos error is 90.33105644557787!
+The result for the training dataset is 0.00214195754675779 at epoch 121, the recovered trajectory pos error is 93.91212927126416!
+The result for the training dataset is 0.002050643575515736 at epoch 121, the recovered trajectory pos error is 92.48516577261465!
+<----Epoch-122---->
+The result for the training dataset is 0.002143968605314908 at epoch 122, the recovered trajectory pos error is 90.80680900242018!
+The result for the training dataset is 0.0020600020435784815 at epoch 122, the recovered trajectory pos error is 87.62578313490924!
+The result for the training dataset is 0.0020205777556704424 at epoch 122, the recovered trajectory pos error is 86.81012478581181!
+<----Epoch-123---->
+The result for the training dataset is 0.002147481638594004 at epoch 123, the recovered trajectory pos error is 90.94333900783373!
+The result for the training dataset is 0.002135994629569206 at epoch 123, the recovered trajectory pos error is 92.36808313107959!
+The result for the training dataset is 0.002062551915447262 at epoch 123, the recovered trajectory pos error is 91.27726717348452!
+<----Epoch-124---->
+The result for the training dataset is 0.0021305727094168897 at epoch 124, the recovered trajectory pos error is 90.32809653904127!
+The result for the training dataset is 0.002032307358960822 at epoch 124, the recovered trajectory pos error is 86.74236798753925!
+The result for the training dataset is 0.0019658146613639677 at epoch 124, the recovered trajectory pos error is 85.65860614070186!
+<----Epoch-125---->
+The result for the training dataset is 0.0020914247740343537 at epoch 125, the recovered trajectory pos error is 90.07826010662576!
+The result for the training dataset is 0.0021254693605370968 at epoch 125, the recovered trajectory pos error is 91.14932071461396!
+The result for the training dataset is 0.0020388410689688666 at epoch 125, the recovered trajectory pos error is 89.95815559669778!
+<----Epoch-126---->
+The result for the training dataset is 0.002080839459338914 at epoch 126, the recovered trajectory pos error is 89.22082008693529!
+The result for the training dataset is 0.0020160961225081015 at epoch 126, the recovered trajectory pos error is 89.11608909158146!
+The result for the training dataset is 0.0019927523120444406 at epoch 126, the recovered trajectory pos error is 88.21264853300872!
+<----Epoch-127---->
+The result for the training dataset is 0.002142734356406752 at epoch 127, the recovered trajectory pos error is 90.28956401659094!
+The result for the training dataset is 0.00202434373489928 at epoch 127, the recovered trajectory pos error is 87.85273009655522!
+The result for the training dataset is 0.0019727740587701125 at epoch 127, the recovered trajectory pos error is 86.8934664549651!
+<----Epoch-128---->
+The result for the training dataset is 0.002099237710480457 at epoch 128, the recovered trajectory pos error is 89.52725607830546!
+The result for the training dataset is 0.0019777479168374603 at epoch 128, the recovered trajectory pos error is 84.84066533107384!
+The result for the training dataset is 0.0019214356186609991 at epoch 128, the recovered trajectory pos error is 83.4895620699282!
+Saving the model at epoch 128! with transform True.
+<----Epoch-129---->
+The result for the training dataset is 0.002104678091026195 at epoch 129, the recovered trajectory pos error is 90.04152609783671!
+The result for the training dataset is 0.002016768385610525 at epoch 129, the recovered trajectory pos error is 86.997355966007!
+The result for the training dataset is 0.0019451931563068043 at epoch 129, the recovered trajectory pos error is 85.65552584330241!
+<----Epoch-130---->
+The result for the training dataset is 0.0020894576314553293 at epoch 130, the recovered trajectory pos error is 89.62248521887737!
+The result for the training dataset is 0.0020498505133825042 at epoch 130, the recovered trajectory pos error is 88.17143069996553!
+The result for the training dataset is 0.0019968192942475004 at epoch 130, the recovered trajectory pos error is 87.33056061356156!
+<----Epoch-131---->
+The result for the training dataset is 0.0020761346667195145 at epoch 131, the recovered trajectory pos error is 89.07483294943104!
+The result for the training dataset is 0.002042428768404266 at epoch 131, the recovered trajectory pos error is 88.84240236469344!
+The result for the training dataset is 0.001995995856338629 at epoch 131, the recovered trajectory pos error is 87.92938832883482!
+<----Epoch-132---->
+The result for the training dataset is 0.002133961095292445 at epoch 132, the recovered trajectory pos error is 90.45019318953804!
+The result for the training dataset is 0.00209135236446837 at epoch 132, the recovered trajectory pos error is 91.47600660137101!
+The result for the training dataset is 0.0020910401459938535 at epoch 132, the recovered trajectory pos error is 90.70074717203777!
+<----Epoch-133---->
+The result for the training dataset is 0.002114733280715249 at epoch 133, the recovered trajectory pos error is 90.2370200779127!
+The result for the training dataset is 0.0022305877212727187 at epoch 133, the recovered trajectory pos error is 94.90352024751552!
+The result for the training dataset is 0.002134913123747403 at epoch 133, the recovered trajectory pos error is 93.73219228673864!
+<----Epoch-134---->
+The result for the training dataset is 0.0021105188511959883 at epoch 134, the recovered trajectory pos error is 90.70296760227369!
+The result for the training dataset is 0.002002942714812782 at epoch 134, the recovered trajectory pos error is 87.79526078467275!
+The result for the training dataset is 0.002013430580350191 at epoch 134, the recovered trajectory pos error is 86.84148293954355!
+<----Epoch-135---->
+The result for the training dataset is 0.0020538364683844795 at epoch 135, the recovered trajectory pos error is 87.52597642981488!
+The result for the training dataset is 0.001958474416431843 at epoch 135, the recovered trajectory pos error is 84.65275656008252!
+The result for the training dataset is 0.0019130827287746662 at epoch 135, the recovered trajectory pos error is 83.60804126880787!
+Saving the model at epoch 135! with transform True.
+<----Epoch-136---->
+The result for the training dataset is 0.0020654363912003845 at epoch 136, the recovered trajectory pos error is 88.63532671721086!
+The result for the training dataset is 0.001966220733033968 at epoch 136, the recovered trajectory pos error is 84.97644229963714!
+The result for the training dataset is 0.0019330573613169017 at epoch 136, the recovered trajectory pos error is 83.58514305397317!
+<----Epoch-137---->
+The result for the training dataset is 0.002098345731223083 at epoch 137, the recovered trajectory pos error is 89.28186997123386!
+The result for the training dataset is 0.0019676364084030046 at epoch 137, the recovered trajectory pos error is 86.90329368441712!
+The result for the training dataset is 0.0019234945810037768 at epoch 137, the recovered trajectory pos error is 85.88298246595595!
+<----Epoch-138---->
+The result for the training dataset is 0.0020529614184456673 at epoch 138, the recovered trajectory pos error is 88.6248989271081!
+The result for the training dataset is 0.0019196996342062073 at epoch 138, the recovered trajectory pos error is 82.18315139471316!
+The result for the training dataset is 0.0018346996447588834 at epoch 138, the recovered trajectory pos error is 80.72793134053548!
+Saving the model at epoch 138! with transform True.
+<----Epoch-139---->
+The result for the training dataset is 0.0020852275258537545 at epoch 139, the recovered trajectory pos error is 88.84520363185716!
+The result for the training dataset is 0.0020326196476269293 at epoch 139, the recovered trajectory pos error is 90.61571570003734!
+The result for the training dataset is 0.0019991761741780297 at epoch 139, the recovered trajectory pos error is 89.95967405813711!
+<----Epoch-140---->
+The result for the training dataset is 0.002074570083261832 at epoch 140, the recovered trajectory pos error is 89.4098284514054!
+The result for the training dataset is 0.0020533844191745363 at epoch 140, the recovered trajectory pos error is 89.66069434670841!
+The result for the training dataset is 0.002035351398970104 at epoch 140, the recovered trajectory pos error is 88.92681241918493!
+<----Epoch-141---->
+The result for the training dataset is 0.0020686255651526154 at epoch 141, the recovered trajectory pos error is 88.38805714482847!
+The result for the training dataset is 0.0020482643831557794 at epoch 141, the recovered trajectory pos error is 88.74084913964366!
+The result for the training dataset is 0.001999149360926822 at epoch 141, the recovered trajectory pos error is 87.7848949432373!
+<----Epoch-142---->
+The result for the training dataset is 0.0020729530901324165 at epoch 142, the recovered trajectory pos error is 88.86179905767027!
+The result for the training dataset is 0.0019975642915632504 at epoch 142, the recovered trajectory pos error is 90.00855270086551!
+The result for the training dataset is 0.001965879207192403 at epoch 142, the recovered trajectory pos error is 89.22216641461408!
+<----Epoch-143---->
+The result for the training dataset is 0.002055647936852082 at epoch 143, the recovered trajectory pos error is 87.37129500015922!
+The result for the training dataset is 0.0020645207716334683 at epoch 143, the recovered trajectory pos error is 91.5849791882085!
+The result for the training dataset is 0.0020017103029035584 at epoch 143, the recovered trajectory pos error is 90.43518129984538!
+<----Epoch-144---->
+The result for the training dataset is 0.00206020572324 at epoch 144, the recovered trajectory pos error is 88.50654167507005!
+The result for the training dataset is 0.0020027898283967492 at epoch 144, the recovered trajectory pos error is 87.50491101134057!
+The result for the training dataset is 0.0019454189071742196 at epoch 144, the recovered trajectory pos error is 86.47780079311795!
+<----Epoch-145---->
+The result for the training dataset is 0.0020224717405179274 at epoch 145, the recovered trajectory pos error is 87.85057844079058!
+The result for the training dataset is 0.0020538865755239098 at epoch 145, the recovered trajectory pos error is 90.50672561047124!
+The result for the training dataset is 0.0020123660689461286 at epoch 145, the recovered trajectory pos error is 89.50397463198061!
+<----Epoch-146---->
+The result for the training dataset is 0.0020457115682327876 at epoch 146, the recovered trajectory pos error is 87.97626515264096!
+The result for the training dataset is 0.0019793377072988626 at epoch 146, the recovered trajectory pos error is 86.5442430084827!
+The result for the training dataset is 0.0019100719784748638 at epoch 146, the recovered trajectory pos error is 85.48448371887207!
+<----Epoch-147---->
+The result for the training dataset is 0.0020568592175233946 at epoch 147, the recovered trajectory pos error is 88.86661562712297!
+The result for the training dataset is 0.0020577871153934623 at epoch 147, the recovered trajectory pos error is 92.03582658954696!
+The result for the training dataset is 0.0019976475903402185 at epoch 147, the recovered trajectory pos error is 91.21586029617875!
+<----Epoch-148---->
+The result for the training dataset is 0.0021539617724635677 at epoch 148, the recovered trajectory pos error is 92.52027445254119!
+The result for the training dataset is 0.0020980011801892784 at epoch 148, the recovered trajectory pos error is 89.85810358384076!
+The result for the training dataset is 0.001978096520933495 at epoch 148, the recovered trajectory pos error is 88.40488024111147!
+<----Epoch-149---->
+The result for the training dataset is 0.0020308794119678762 at epoch 149, the recovered trajectory pos error is 86.42325734677522!
+The result for the training dataset is 0.0020333409056012683 at epoch 149, the recovered trajectory pos error is 89.69246598785999!
+The result for the training dataset is 0.0019746739126276225 at epoch 149, the recovered trajectory pos error is 88.65292351334183!
+<----Epoch-150---->
+The result for the training dataset is 0.0020184384886701794 at epoch 150, the recovered trajectory pos error is 86.54932426784349!
+The result for the training dataset is 0.002052586122790315 at epoch 150, the recovered trajectory pos error is 91.5786969053979!
+The result for the training dataset is 0.00199171216270231 at epoch 150, the recovered trajectory pos error is 90.4662373860677!
+<----Epoch-151---->
+The result for the training dataset is 0.0020174167549197116 at epoch 151, the recovered trajectory pos error is 86.82976472274117!
+The result for the training dataset is 0.001918293297172104 at epoch 151, the recovered trajectory pos error is 83.01274976543351!
+The result for the training dataset is 0.0018852783724907095 at epoch 151, the recovered trajectory pos error is 82.05389383104112!
+<----Epoch-152---->
+The result for the training dataset is 0.002037478748546994 at epoch 152, the recovered trajectory pos error is 88.1314299541971!
+The result for the training dataset is 0.001931416877435849 at epoch 152, the recovered trajectory pos error is 82.75836555630553!
+The result for the training dataset is 0.0018874245245199374 at epoch 152, the recovered trajectory pos error is 81.86556060225875!
+<----Epoch-153---->
+The result for the training dataset is 0.0020239903024681237 at epoch 153, the recovered trajectory pos error is 87.99941751231317!
+The result for the training dataset is 0.0019167710960769624 at epoch 153, the recovered trajectory pos error is 82.78273391723633!
+The result for the training dataset is 0.0018908552721970612 at epoch 153, the recovered trajectory pos error is 82.0231085176821!
+<----Epoch-154---->
+The result for the training dataset is 0.002041379437761624 at epoch 154, the recovered trajectory pos error is 88.14997794109843!
+The result for the training dataset is 0.0019769499445900173 at epoch 154, the recovered trajectory pos error is 85.79531606038411!
+The result for the training dataset is 0.0019195068032584256 at epoch 154, the recovered trajectory pos error is 84.62328232659235!
+<----Epoch-155---->
+The result for the training dataset is 0.0019943471755022586 at epoch 155, the recovered trajectory pos error is 87.52511669656505!
+The result for the training dataset is 0.0019773896498258645 at epoch 155, the recovered trajectory pos error is 85.41716130574544!
+The result for the training dataset is 0.0019152940852412332 at epoch 155, the recovered trajectory pos error is 84.16554514567058!
+<----Epoch-156---->
+The result for the training dataset is 0.002058485730389214 at epoch 156, the recovered trajectory pos error is 87.812776416281!
+The result for the training dataset is 0.0019174238721675733 at epoch 156, the recovered trajectory pos error is 84.80542650409774!
+The result for the training dataset is 0.0018442596429614005 at epoch 156, the recovered trajectory pos error is 83.5123413933648!
+<----Epoch-157---->
+The result for the training dataset is 0.0020262779182066088 at epoch 157, the recovered trajectory pos error is 87.73188748567!
+The result for the training dataset is 0.0020433734296638447 at epoch 157, the recovered trajectory pos error is 88.5155813927744!
+The result for the training dataset is 0.0019452191115339734 at epoch 157, the recovered trajectory pos error is 87.41460270351834!
+<----Epoch-158---->
+The result for the training dataset is 0.0020331771047178496 at epoch 158, the recovered trajectory pos error is 86.76630988742994!
+The result for the training dataset is 0.0019406975023265854 at epoch 158, the recovered trajectory pos error is 85.00608720966414!
+The result for the training dataset is 0.0019090885180048645 at epoch 158, the recovered trajectory pos error is 84.0375766047725!
+<----Epoch-159---->
+The result for the training dataset is 0.002016768308923296 at epoch 159, the recovered trajectory pos error is 87.13157945715862!
+The result for the training dataset is 0.001986614945481586 at epoch 159, the recovered trajectory pos error is 88.28918890859566!
+The result for the training dataset is 0.0019355396960034138 at epoch 159, the recovered trajectory pos error is 87.25056033664279!
+<----Epoch-160---->
+The result for the training dataset is 0.0020117640561100256 at epoch 160, the recovered trajectory pos error is 87.3721162215523!
+The result for the training dataset is 0.0020297606665111495 at epoch 160, the recovered trajectory pos error is 89.66468205171473!
+The result for the training dataset is 0.0020231015363673644 at epoch 160, the recovered trajectory pos error is 89.04363229539659!
+<----Epoch-161---->
+The result for the training dataset is 0.0020439102066397343 at epoch 161, the recovered trajectory pos error is 88.08246632451596!
+The result for the training dataset is 0.0019855669222534726 at epoch 161, the recovered trajectory pos error is 86.92625883513806!
+The result for the training dataset is 0.0019307723592242433 at epoch 161, the recovered trajectory pos error is 85.93267836394133!
+<----Epoch-162---->
+The result for the training dataset is 0.0020259149352331524 at epoch 162, the recovered trajectory pos error is 87.39537708448327!
+The result for the training dataset is 0.0018624823070222548 at epoch 162, the recovered trajectory pos error is 82.94637051750632!
+The result for the training dataset is 0.0018534921336039486 at epoch 162, the recovered trajectory pos error is 82.21909508881745!
+<----Epoch-163---->
+The result for the training dataset is 0.0019571238328986193 at epoch 163, the recovered trajectory pos error is 85.76917316602623!
+The result for the training dataset is 0.002056549116056047 at epoch 163, the recovered trajectory pos error is 92.05391289206112!
+The result for the training dataset is 0.002028360413128717 at epoch 163, the recovered trajectory pos error is 91.3350843500208!
+<----Epoch-164---->
+The result for the training dataset is 0.002030013575542556 at epoch 164, the recovered trajectory pos error is 87.21017751279085!
+The result for the training dataset is 0.0019048563896349685 at epoch 164, the recovered trajectory pos error is 83.07987048579197!
+The result for the training dataset is 0.001870902970916143 at epoch 164, the recovered trajectory pos error is 82.30602660002532!
+<----Epoch-165---->
+The result for the training dataset is 0.002002874190878609 at epoch 165, the recovered trajectory pos error is 87.30792743848718!
+The result for the training dataset is 0.0019264590718746915 at epoch 165, the recovered trajectory pos error is 84.67851870667701!
+The result for the training dataset is 0.0018814234677443488 at epoch 165, the recovered trajectory pos error is 83.68034984447338!
+<----Epoch-166---->
+The result for the training dataset is 0.0019922716381109277 at epoch 166, the recovered trajectory pos error is 85.82631726472275!
+The result for the training dataset is 0.0020076805935697814 at epoch 166, the recovered trajectory pos error is 90.91337929519952!
+The result for the training dataset is 0.0020025993246774844 at epoch 166, the recovered trajectory pos error is 90.23574906808359!
+<----Epoch-167---->
+The result for the training dataset is 0.0020323036491627926 at epoch 167, the recovered trajectory pos error is 87.91370521213697!
+The result for the training dataset is 0.0019177729138355776 at epoch 167, the recovered trajectory pos error is 84.5752488678577!
+The result for the training dataset is 0.0019074198541973062 at epoch 167, the recovered trajectory pos error is 83.78050415604203!
+<----Epoch-168---->
+The result for the training dataset is 0.002030334261286518 at epoch 168, the recovered trajectory pos error is 88.18070698613705!
+The result for the training dataset is 0.0019360483788392123 at epoch 168, the recovered trajectory pos error is 84.1254602320054!
+The result for the training dataset is 0.0018739340346116849 at epoch 168, the recovered trajectory pos error is 83.13560069048846!
+<----Epoch-169---->
+The result for the training dataset is 0.0019700708459941267 at epoch 169, the recovered trajectory pos error is 86.5463045866593!
+The result for the training dataset is 0.0018869872506269638 at epoch 169, the recovered trajectory pos error is 82.72159845688763!
+The result for the training dataset is 0.0018690175428572628 at epoch 169, the recovered trajectory pos error is 81.88207534507468!
+<----Epoch-170---->
+The result for the training dataset is 0.0019938122916399784 at epoch 170, the recovered trajectory pos error is 86.51549102119778!
+The result for the training dataset is 0.0020550964012121162 at epoch 170, the recovered trajectory pos error is 92.46209873872645!
+The result for the training dataset is 0.0020077598854657953 at epoch 170, the recovered trajectory pos error is 91.77907413906522!
+<----Epoch-171---->
+The result for the training dataset is 0.002010192227570097 at epoch 171, the recovered trajectory pos error is 87.84878284620203!
+The result for the training dataset is 0.0019146046902546112 at epoch 171, the recovered trajectory pos error is 84.02011287913604!
+The result for the training dataset is 0.0018860573936426252 at epoch 171, the recovered trajectory pos error is 83.26817540769224!
+<----Epoch-172---->
+The result for the training dataset is 0.001966172160135339 at epoch 172, the recovered trajectory pos error is 85.56459891277811!
+The result for the training dataset is 0.00192863527598663 at epoch 172, the recovered trajectory pos error is 85.59711261824066!
+The result for the training dataset is 0.0018951618080286102 at epoch 172, the recovered trajectory pos error is 84.7314818346942!
+<----Epoch-173---->
+The result for the training dataset is 0.0019941891072844356 at epoch 173, the recovered trajectory pos error is 86.55819101748259!
+The result for the training dataset is 0.0019332508524587634 at epoch 173, the recovered trajectory pos error is 83.49562708536784!
+The result for the training dataset is 0.0018909977031095575 at epoch 173, the recovered trajectory pos error is 82.4072853370949!
+<----Epoch-174---->
+The result for the training dataset is 0.0019790757923265514 at epoch 174, the recovered trajectory pos error is 86.9603807532269!
+The result for the training dataset is 0.001982685342869338 at epoch 174, the recovered trajectory pos error is 86.8584478041705!
+The result for the training dataset is 0.0019464246115940451 at epoch 174, the recovered trajectory pos error is 85.81009638750994!
+<----Epoch-175---->
+The result for the training dataset is 0.0019620357774724454 at epoch 175, the recovered trajectory pos error is 85.66376929905104!
+The result for the training dataset is 0.0019267475182263582 at epoch 175, the recovered trajectory pos error is 86.23885876524682!
+The result for the training dataset is 0.0019222306835689341 at epoch 175, the recovered trajectory pos error is 85.59130944146051!
+<----Epoch-176---->
+The result for the training dataset is 0.002000557008685301 at epoch 176, the recovered trajectory pos error is 87.96566397625467!
+The result for the training dataset is 0.0019523560425595326 at epoch 176, the recovered trajectory pos error is 85.36343765258789!
+The result for the training dataset is 0.0019214584328303183 at epoch 176, the recovered trajectory pos error is 84.68162896898058!
+<----Epoch-177---->
+The result for the training dataset is 0.0019834672956241537 at epoch 177, the recovered trajectory pos error is 86.04876367320185!
+The result for the training dataset is 0.001916366566529534 at epoch 177, the recovered trajectory pos error is 83.22882162355909!
+The result for the training dataset is 0.001855345671410086 at epoch 177, the recovered trajectory pos error is 82.03831602025915!
+<----Epoch-178---->
+The result for the training dataset is 0.0019820338408665164 at epoch 178, the recovered trajectory pos error is 86.08290431810462!
+The result for the training dataset is 0.001933955111513462 at epoch 178, the recovered trajectory pos error is 83.29632605758368!
+The result for the training dataset is 0.0018998609340525473 at epoch 178, the recovered trajectory pos error is 82.40611966451009!
+<----Epoch-179---->
+The result for the training dataset is 0.0020135459044705265 at epoch 179, the recovered trajectory pos error is 87.4922976286515!
+The result for the training dataset is 0.00198115893027873 at epoch 179, the recovered trajectory pos error is 86.87112239762848!
+The result for the training dataset is 0.0019209719644600733 at epoch 179, the recovered trajectory pos error is 85.62633648625126!
+<----Epoch-180---->
+The result for the training dataset is 0.0019829917132206587 at epoch 180, the recovered trajectory pos error is 86.39588924905529!
+The result for the training dataset is 0.0018588690950042184 at epoch 180, the recovered trajectory pos error is 83.72975749595493!
+The result for the training dataset is 0.0018395324511436262 at epoch 180, the recovered trajectory pos error is 83.02113193935818!
+<----Epoch-181---->
+The result for the training dataset is 0.001974432761578456 at epoch 181, the recovered trajectory pos error is 85.15221663765286!
+The result for the training dataset is 0.0019552505680122505 at epoch 181, the recovered trajectory pos error is 86.81929240507237!
+The result for the training dataset is 0.0019110879457676438 at epoch 181, the recovered trajectory pos error is 85.4972221939652!
+<----Epoch-182---->
+The result for the training dataset is 0.001991215837188065 at epoch 182, the recovered trajectory pos error is 86.64046508125637!
+The result for the training dataset is 0.002065128206238881 at epoch 182, the recovered trajectory pos error is 90.54615222706514!
+The result for the training dataset is 0.001955881427016316 at epoch 182, the recovered trajectory pos error is 89.25664322464554!
+<----Epoch-183---->
+The result for the training dataset is 0.001979102624539772 at epoch 183, the recovered trajectory pos error is 86.66637652853261!
+The result for the training dataset is 0.001919201029665476 at epoch 183, the recovered trajectory pos error is 85.23606640684838!
+The result for the training dataset is 0.0018808411399799366 at epoch 183, the recovered trajectory pos error is 84.27427200034812!
+<----Epoch-184---->
+The result for the training dataset is 0.0019436874280116805 at epoch 184, the recovered trajectory pos error is 85.26282265704612!
+The result for the training dataset is 0.0019401035958663652 at epoch 184, the recovered trajectory pos error is 85.65274967866786!
+The result for the training dataset is 0.0019197186069235344 at epoch 184, the recovered trajectory pos error is 84.70521121554904!
+<----Epoch-185---->
+The result for the training dataset is 0.001993884584542526 at epoch 185, the recovered trajectory pos error is 86.5183247110118!
+The result for the training dataset is 0.001961200348530695 at epoch 185, the recovered trajectory pos error is 87.45662898643344!
+The result for the training dataset is 0.001932210828979603 at epoch 185, the recovered trajectory pos error is 86.76782318397805!
+<----Epoch-186---->
+The result for the training dataset is 0.001957713825749638 at epoch 186, the recovered trajectory pos error is 85.33699967757515!
+The result for the training dataset is 0.0018979831057710245 at epoch 186, the recovered trajectory pos error is 82.41105554618088!
+The result for the training dataset is 0.0018487587178781352 at epoch 186, the recovered trajectory pos error is 81.2679399560999!
+<----Epoch-187---->
+The result for the training dataset is 0.001978489288392112 at epoch 187, the recovered trajectory pos error is 86.69157509181811!
+The result for the training dataset is 0.0019235088725063 at epoch 187, the recovered trajectory pos error is 83.97686819936715!
+The result for the training dataset is 0.0018383704483750517 at epoch 187, the recovered trajectory pos error is 82.99450033682363!
+<----Epoch-188---->
+The result for the training dataset is 0.0019695469709720623 at epoch 188, the recovered trajectory pos error is 85.42359317281972!
+The result for the training dataset is 0.0018601553450685506 at epoch 188, the recovered trajectory pos error is 80.91604225308288!
+The result for the training dataset is 0.0018124980410060812 at epoch 188, the recovered trajectory pos error is 80.0206339094374!
+Saving the model at epoch 188! with transform True.
+<----Epoch-189---->
+The result for the training dataset is 0.0019453960081116984 at epoch 189, the recovered trajectory pos error is 84.97646311884341!
+The result for the training dataset is 0.0019666477969354566 at epoch 189, the recovered trajectory pos error is 88.56080163693896!
+The result for the training dataset is 0.0019360619750201564 at epoch 189, the recovered trajectory pos error is 87.69567659166124!
+<----Epoch-190---->
+The result for the training dataset is 0.0019473853551418238 at epoch 190, the recovered trajectory pos error is 85.41135170978049!
+The result for the training dataset is 0.0019119953081541347 at epoch 190, the recovered trajectory pos error is 82.62922578699448!
+The result for the training dataset is 0.0018243995803425572 at epoch 190, the recovered trajectory pos error is 81.47327952914767!
+<----Epoch-191---->
+The result for the training dataset is 0.0019405789207667112 at epoch 191, the recovered trajectory pos error is 84.93573173854662!
+The result for the training dataset is 0.001851736426389977 at epoch 191, the recovered trajectory pos error is 80.86792426015816!
+The result for the training dataset is 0.0018049888355933406 at epoch 191, the recovered trajectory pos error is 80.02238640961824!
+Saving the model at epoch 191! with transform True.
+<----Epoch-192---->
+The result for the training dataset is 0.0019851341828420435 at epoch 192, the recovered trajectory pos error is 87.08478692096213!
+The result for the training dataset is 0.0018996042404871654 at epoch 192, the recovered trajectory pos error is 81.4631009569355!
+The result for the training dataset is 0.0018263812181194899 at epoch 192, the recovered trajectory pos error is 80.04316880967882!
+<----Epoch-193---->
+The result for the training dataset is 0.001963719696758072 at epoch 193, the recovered trajectory pos error is 86.1716003086256!
+The result for the training dataset is 0.0019307143965681247 at epoch 193, the recovered trajectory pos error is 88.10326400457645!
+The result for the training dataset is 0.0019276497381118436 at epoch 193, the recovered trajectory pos error is 87.67325627362287!
+<----Epoch-194---->
+The result for the training dataset is 0.0019568997359348706 at epoch 194, the recovered trajectory pos error is 85.27289087046748!
+The result for the training dataset is 0.0019534472935358246 at epoch 194, the recovered trajectory pos error is 86.94821137072994!
+The result for the training dataset is 0.0019059487008403434 at epoch 194, the recovered trajectory pos error is 85.92830403645833!
+<----Epoch-195---->
+The result for the training dataset is 0.001975356625474018 at epoch 195, the recovered trajectory pos error is 86.05163690318231!
+The result for the training dataset is 0.0018935835687443614 at epoch 195, the recovered trajectory pos error is 83.10366649253696!
+The result for the training dataset is 0.001812642076940931 at epoch 195, the recovered trajectory pos error is 81.75415010805483!
+<----Epoch-196---->
+The result for the training dataset is 0.0019537447901118708 at epoch 196, the recovered trajectory pos error is 84.99491968569548!
+The result for the training dataset is 0.001895104127470404 at epoch 196, the recovered trajectory pos error is 82.19977068433575!
+The result for the training dataset is 0.001888566822917373 at epoch 196, the recovered trajectory pos error is 81.51551359671133!
+<----Epoch-197---->
+The result for the training dataset is 0.0019639264579619405 at epoch 197, the recovered trajectory pos error is 86.26209378449813!
+The result for the training dataset is 0.0021308823009295497 at epoch 197, the recovered trajectory pos error is 95.11178820740943!
+The result for the training dataset is 0.002084634132053772 at epoch 197, the recovered trajectory pos error is 94.10124312506781!
+<----Epoch-198---->
+The result for the training dataset is 0.001978889718125372 at epoch 198, the recovered trajectory pos error is 85.76425857543946!
+The result for the training dataset is 0.0019006836753082917 at epoch 198, the recovered trajectory pos error is 84.12034375059838!
+The result for the training dataset is 0.001861222532439839 at epoch 198, the recovered trajectory pos error is 83.14900016784668!
+<----Epoch-199---->
+The result for the training dataset is 0.0019369376261475617 at epoch 199, the recovered trajectory pos error is 84.97856773708178!
+The result for the training dataset is 0.0019257929924802453 at epoch 199, the recovered trajectory pos error is 88.25959815231025!
+The result for the training dataset is 0.0018967406347790664 at epoch 199, the recovered trajectory pos error is 87.2337624585187!
+<----Epoch-200---->
+The result for the training dataset is 0.0019362743630114458 at epoch 200, the recovered trajectory pos error is 85.49174300484036!
+The result for the training dataset is 0.001846028548921002 at epoch 200, the recovered trajectory pos error is 81.90581011304668!
+The result for the training dataset is 0.0018264168692338797 at epoch 200, the recovered trajectory pos error is 81.10018412272136!
